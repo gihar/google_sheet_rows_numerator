@@ -36,7 +36,7 @@ function onEdit(e){
       }
     };                                     //конец  цикла
 
-    if ((count > 1) || (rowId == '')) {    //Если таких id строки пустой или такой id уже есть
+    if ((count > 1) || (rowId == '')) {    //если id строки пустой или такой id уже есть
        var maxId = getMaxId(data)
        var prefix = 'CUT-'
        var newRowId = prefix.concat(maxId.toString())
